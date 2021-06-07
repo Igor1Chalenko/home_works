@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/nes.css@latest/css/nes.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="scripts/script.js" defer></script>
+  </head>
+
+  <body>
+    <main class="container" id="container">
+      <div class="nes-container actions-form-container block" id="text-block">
+        <div class="nes-field">
+          <label for="item-input">To Do List</label>
+          <input type="text" id="item-input" class="nes-input" />
+        </div>
+        <button type="button" id="add-case" class="nes-btn actions-form-btn">
+          add case
+        </button>
+        <div class="lists top">
+          <ul id="list" class="nes-list"></ul>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
